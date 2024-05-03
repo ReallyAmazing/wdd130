@@ -1,4 +1,4 @@
-@import url('https://fonts.google.com/share?selection.family=Lora:ital,');
+@import url('https://fonts.google.com/specimen/Roboto+Slab');
 
 body {
     font-family: var(--paragraph-font);
@@ -12,7 +12,7 @@ body {
     --accent1-color: #A594F9;
     --accent-color:  #7371FC;
 
-    --Heading-font: 'lora', serif;
+    --Heading-font: 'Roboto', serif;
     --paragraph-font: 'DM sans', serif;
 
     --nav-background-color: #E5D9F2;
