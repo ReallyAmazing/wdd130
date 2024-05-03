@@ -1,5 +1,9 @@
-@import url('https://fonts.google.com/specimen/Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
+@font-face {
+    font-family: "Rock Salt";
+    src: url(fonts/RockSalt-Regular.ttf);
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
