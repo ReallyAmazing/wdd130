@@ -7,23 +7,23 @@ body {
 }
 
 :root {
-    --primary-color: #49B6FF;
-    --secondary-color: #779BE7;
-    --accent1-color: #A480CF;
-    --accent-color: #D264B6;
+    --primary-color: #E5D9F2;
+    --secondary-color: #F5EFFF;
+    --accent1-color: #A594F9;
+    --accent-color:  #7371FC;
 
     --Heading-font: 'lora', serif;
     --paragraph-font: 'DM sans', serif;
 
-    --nav-background-color: #49B6FF;
-    --nav-link-color: #779BE7;
-    --nav-hover-link-color: #A480CF;
-    --nav-hover-background-color: #D264B6;
+    --nav-background-color: #E5D9F2;
+    --nav-link-color: #F5EFFF;
+    --nav-hover-link-color: #A594F9;
+    --nav-hover-background-color:  #7371FC;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--Heading-font);
-    color:var(--primary-color)
+    color:var(--accent-color)
 }
 
 header {
