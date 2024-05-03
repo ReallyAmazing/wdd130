@@ -21,6 +21,12 @@ body {
     --nav-hover-background-color:  #7371FC;
 }
 
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--Heading-font);
     color:var(--accent-color)
@@ -43,15 +49,16 @@ nav {
 
 nav a {
     display: block;
-    color: var(--nav-hover-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-hover-link-color)
+    color: var(--nav-link-color)
 }
 
 nav a :hover {
     color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-background-color);
 }
