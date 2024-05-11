@@ -3,3 +3,8 @@
 main {
     max-width: 840px;
 }
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
