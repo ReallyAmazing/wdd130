@@ -10,8 +10,8 @@
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
-    background-color: #ddd;
-    color: #000;
+    background-color: lightblue;
+    color: black;
  }
 
 main {
@@ -31,6 +31,14 @@ nav a {
 h1 {
     color: steelblue;
 }
+
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 100px;
+    color: bisque;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -39,6 +47,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 
 }
 
