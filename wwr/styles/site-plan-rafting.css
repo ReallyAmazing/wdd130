@@ -6,13 +6,14 @@ body {
     padding: 20px;
 }
 
+
 :root {
   --primary-color: #E5D9F2;
   --secondary-color: #F5EFFF;
   --accent1-color: #A594F9;
   --accent2-color:  #7371FC;
 
-  --Heading-font: 'Play fair display', serif;
+  --heading-font: 'Play fair display', serif;
   --paragraph-font: 'roboto', serif;
 
   --nav-background-color: #E5D9F2;
@@ -28,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--Heading-font);
+    font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 
