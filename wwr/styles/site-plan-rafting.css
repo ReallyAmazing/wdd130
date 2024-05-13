@@ -7,18 +7,18 @@ body {
 }
 
 :root {
-    --primary-color: #E5D9F2;
-    --secondary-color: #F5EFFF;
-    --accent1-color: #A594F9;
-    --accent2-color:  #7371FC;
+  --primary-color: #E5D9F2;
+  --secondary-color: #F5EFFF;
+  --accent1-color: #A594F9;
+  --accent2-color:  #7371FC;
 
-    --Heading-font: 'Play fair display', serif;
-    --paragraph-font: 'roboto', serif;
+  --Heading-font: 'Play fair display', serif;
+  --paragraph-font: 'roboto', serif;
 
-    --nav-background-color: #E5D9F2;
-    --nav-link-color: #F5EFFF;
-    --nav-hover-link-color: #A594F9;
-    --nav-hover-background-color:  #7371FC;
+  --nav-background-color: #E5D9F2;
+  --nav-link-color: #F5EFFF;
+  --nav-hover-link-color: #A594F9;
+  --nav-hover-background-color:  #7371FC;
 }
 
 body {
