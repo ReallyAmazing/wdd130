@@ -25,24 +25,30 @@ header {
 
 nav {
 	text-align: right;
-   margin-left: 200px;
-   display: inline-table;
-   
 }
 
 .navigation {
 	display: flex;
 	list-style: none;
+   margin-left: 170px;
+}
+
+.navigation li {
+	flex: 1 1 100%;
 }
 
 .navigation a {
+	display: block;
 	color: navy;
 	padding: 20px;
 	text-decoration: none;
-   
-   
 }
 
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
 
 .logo img {
 	margin: 0 0.25rem 0 1rem;
