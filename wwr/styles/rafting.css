@@ -197,9 +197,7 @@ figure {
    width: 10rem;
    height: auto;
    margin-left: 550px;
-   
-   
-   
+     
  }
 
 
@@ -210,9 +208,8 @@ form {
       padding: 1rem;
      
       border-radius: 0.5rem;
-      background-color: #eee;
-      
-  };
+      background-color: #eee;     
+  }
 
    
 
