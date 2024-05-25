@@ -228,6 +228,8 @@ form {
 .happy img {
    width: 290px;
    margin-left: 480px;
+   flex-direction: column;
+
 }
 
 input, select, textarea {
