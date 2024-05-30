@@ -291,11 +291,10 @@ button:hover {
 }
 
 
-.form-radio  {
+.form-group  {
    margin-bottom: 20px;
    align-items: center;
-   margin-bottom: 10px;
-   
+     
 }
 
 .contact-form h4 {
@@ -304,6 +303,8 @@ button:hover {
    color: #333;
    margin-left: 50px;
 }
+
+
 
 
    

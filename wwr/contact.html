@@ -39,21 +39,29 @@
                             <form>
                                 <div class="form-group">
                                     <label for="name">Name:</label>
-                                    <input type="text" name="name" placeholder="Your name">
+                                    <input type="text" name="name" id="name" placeholder="Your name">
                                 </div>
                                   
                                 <div class="form-group">
                                     <label for="Email">Email:</label>
-                                    <input type="email" name="email" placeholder="Your email">
+                                    <input type="email" name="email" id="email" placeholder="Your email">
                                 </div>
-                                <div class="form-radio">
+                                <div class="form-group">
                                     <h4>Please Select</h4>
                                     <input type="radio" id="General Inquiry" name="fav_language" value="General Inquiry">
-                                    <label for="General Inquiry">General Inquiry</label>
+                                    <label for="General Inquiry">General Inquiry</label>
+                                    
                                     <input type="radio" id="Reservation Question" name="fav_language" value="Reservation Question">
-                                    <label for="General Inquiry">General Inquiry</label>
+                                    <label for="Reservation Question">Reservation Question</label>
                                     <input type="radio" id="Website Suggestion" name="Website Suggestion">
                                     <label for="Website Suggestion">Website Suggestion</label>
+                                <div class="form-group">
+                                    <input type="text" placeholder="message us">
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="checkbox">
+                                    <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+                                </div>
                                 </div>
                                 <button type="submit">Send Message</button>                      
                             </form>
