@@ -357,7 +357,7 @@ button:hover {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(rafting1.jpg);
+   background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url('../images/happy.jpg');
    background-position: center;
    background-size: cover;
 }
@@ -449,3 +449,20 @@ button:hover {
    transition: 0.6s;
 }
 
+.wrap{
+   background: url('../images/rafting2.jpg') no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.navhead{
+   height: 80px;
+   width: 100%;
+   background: rgba(0,0,0,0.4);
+}
+
+.logo{
+   width: 140px;
+   height: auto;
+   padding: 20px 100px;   
+}
